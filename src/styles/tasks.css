@@ -1,0 +1,9 @@
+.tasks {
+    max-width: 500px;
+    min-height: 300px;
+}
+
+.tasks__list {
+    margin-top: 20px;
+}
+

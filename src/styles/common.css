@@ -1,0 +1,11 @@
+body {
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_center {
+    align-items: center;
+}
