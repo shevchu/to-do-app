@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>To do app</title>
 </head>
 <body>
+    <div class="tasks">
+        <header>
+            <h1 class="title">My tasks</h1>
+        </header>
+        <main>
+            <input 
+                type="text" 
+                class="form-control add-task" 
+                placeholder="Add a new task"
+            >
+            <ul class="list-group task-list">
+                <li class="list-group-item task">
+                    <input type="checkbox">
+                    <span class="task__name"> Task name </span>
+                    <button class="btn btn-link task__delete">x</button>
+                </li>
+            </ul>
+        </main>
+    </div>
     
+
 </body>
 </html>
