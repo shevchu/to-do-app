@@ -6,8 +6,10 @@
 
 .task__description {
     display: flex;
-    align-items: center;
     flex-direction: column;
     margin-left: 20px;
 }
 
+.task__date {
+    font-size: 12px;
+}

@@ -15,7 +15,8 @@
             <h1 class="title">My tasks</h1>
         </header>
         <main>
-            <input 
+            <input
+                id="add-task"
                 type="text" 
                 class="form-control add-task" 
                 placeholder="Add a new task"
@@ -26,16 +27,28 @@
                         <input type="checkbox">
                         <div class="task__description">
                             <span class="task__name">Task name</span> 
-                            <span class="task__date">Today</span>
+                            <span class="text-muted task__date">Tomorrow</span>
                         </div>
                     </div>
                     <button class="btn btn-link task__delete">x</button>
                 </li>
-
             </ul>
         </main>
     </div>
-    
 
+    <template id="task-template">
+        <li class="list-group-item task">
+            <div class="flex flex_center">
+                <input type="checkbox">
+                <div class="task__description">
+                    <span class="task__name"></span>
+                    <span class="text-muted task__date">Today</span>
+                </div>
+            </div>
+            <button class="btn btn-link task__delete">x</button>
+        </li>
+    </template>
+
+    <script src="./js/tasks.js"></script>
 </body>
 </html>
